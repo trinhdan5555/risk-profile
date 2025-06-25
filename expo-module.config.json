@@ -1,0 +1,9 @@
+{
+  "platforms": ["apple", "android", "web"],
+  "apple": {
+    "modules": ["ThreatMetrixModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.forgeriskprofiling.ThreatMetrixModule"]
+  }
+}

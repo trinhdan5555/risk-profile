@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "forge-risk-profiling": ["../src/index"],
+      "forge-risk-profiling/*": ["../src/*"]
+    }
+  }
+}
